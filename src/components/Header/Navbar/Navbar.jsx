@@ -13,12 +13,14 @@ const Navbar = () => {
                         Home
                         </NavLink>
                     </li>
+
                     <li>
                         <NavLink to="/favorites" className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-[#FF444A] text-lg font-bold underline" : ""}>
                         Favorites
                         </NavLink>
                     </li>
+                    
                     <li>
                         <NavLink to="/login" className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-[#FF444A] text-lg font-bold underline" : ""}>
